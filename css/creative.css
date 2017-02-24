@@ -471,6 +471,10 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+#page-top {
+  margin-bottom: 35px;
+}
+
 .follow-me {
   margin-top: 20px;
   margin-bottom: 40px;

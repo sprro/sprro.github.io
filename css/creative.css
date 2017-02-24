@@ -39,7 +39,16 @@ h6 {
   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-weight: 200;
+}
+
 p {
+  font-weight: 100;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -56,11 +65,11 @@ p {
   font-weight: 300;
 }
 
-#images {
+/*#images {
   background-image: url('../img/light_toast.png');
   padding-bottom: 10px;
   padding-top: 10px;
-}
+}*/
 
 section {
   padding: 100px 0;
@@ -316,6 +325,13 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+
+@media (max-width: 640px) {
+  #music-btn {
+    display: none;
+  }
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
@@ -453,6 +469,16 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.follow-me {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.about-me {
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 #footer p {

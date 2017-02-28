@@ -332,6 +332,10 @@ header .header-content .header-content-inner p {
   }
 }
 
+.music {
+  margin: 0 auto;
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
@@ -490,6 +494,28 @@ body {
   font-size: 12px;
   font-weight: 100;
   color: #919191;
+}
+
+ #aPlayer > audio { width: 100% }
+        /* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+       /* HIDE DOWNLOAD AUDIO BUTTON */
+     #aPlayer {
+           overflow: hidden;width: 390px; 
+        }
+
+    #aPlayer > audio { width: 300px; }
+}
+
+/* Chrome 22-28 */
+@media screen and(-webkit-min-device-pixel-ratio:0) {
+    
+      #aPlayer {
+           overflow: hidden;width: 390px; 
+        }
+
+    #aPlayer > audio { width: 300px; }
 }
 
 audio::-internal-media-controls-download-button {

@@ -79,7 +79,7 @@
                 <hr>
                 <p>Rogue Photographer is a project created by <strong><a href="http://instagram.com/sprro" target="_blank">Jason Reynolds</a></strong> to help protect the environment and raise awareness about climate change. I donate 100% of the money I make from my photography to the National Resources Defense Council.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">LEARN MORE</a>
-                <a href="#music" class="btn btn-primary btn-xl page-scroll" id="music-btn">STOP MUSIC</a>
+                <a href="#footer" class="btn btn-primary btn-xl page-scroll" id="music-btn">STOP MUSIC</a>
             </div>
         </div>
     </header>
@@ -425,7 +425,13 @@
         <footer>
         <div class="row">
             <div class="col-lg-12 text-center" id="footer">
-            <audio id="music" src="LeavingEarth.mp3" controls autoplay></audio>
+
+            <div class="music" id="aPlayer">
+                <audio autoplay="autoplay" controls="controls">
+                  <source src="LeavingEarth.mp3" type="audio/mpeg"/>
+                </audio>
+            </div>
+            <!-- <audio id="music" src="LeavingEarth.mp3" controls autoplay></audio> -->
             <br>
             <br>
             <a href="#page-top" class="btn btn-primary btn-xl page-scroll" id="page-top">BACK TO TOP</a>

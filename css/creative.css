@@ -496,6 +496,11 @@ body {
   color: #919191;
 }
 
+.copyright {
+  margin: 20px; 
+  text-align: center;
+}
+
  #aPlayer > audio { width: 100% }
         /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0)
